@@ -11,3 +11,5 @@ const pocetPredstaveniMesacne = 15
 
 const prijem = cenaListku * priemernyPocetZakaznikov * pocetPredstaveniMesacne
 
+ document.body.innerHTML += "<p>" + prijem + "</p>"
+
