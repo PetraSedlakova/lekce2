@@ -13,3 +13,10 @@ const prijem = cenaListku * priemernyPocetZakaznikov * pocetPredstaveniMesacne
 
  document.body.innerHTML += "<p>" + prijem + "</p>"
 
+ const percentoStudentov = 0.40 
+ const studentskaZlava = 0.65 
+ const pocetStudentov = priemernyPocetZakaznikov * percentoStudentov
+ const pocetPlatiacichPlnu = priemernyPocetZakaznikov - pocetStudentov
+
+ const prijemSoZlavou = (pocetStudentov * cenaListku * studentskaZlava + pocetPlatiacichPlnu * cenaListku) * pocetPredstaveniMesacne;
+ 
