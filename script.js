@@ -5,3 +5,9 @@ Uložte výsledek do proměnné prijem. Hodnotu proměnné prijem vypište do st
 Jak se změní měsíční příjem divadla pokud víme, že 40 % návštěvníků jsou studenti? Vypište do stránky i příjem divadla se započítanou slevou pro studenty.
 */
 
+const cenaListku = 12
+const priemernyPocetZakaznikov = 174
+const pocetPredstaveniMesacne = 15
+
+const prijem = cenaListku * priemernyPocetZakaznikov * pocetPredstaveniMesacne
+
