@@ -31,3 +31,6 @@ Vemte v úvahu, že funkce Math.random generuje náhodná čísla mezi 0 (včetn
  */
 
 const hodKockou = Math.floor(Math.random() * 6) + 1;
+
+ document.body.innerHTML += "<p>" + hodKockou + "</p>"
+
