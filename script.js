@@ -5,22 +5,22 @@ Uložte výsledek do proměnné prijem. Hodnotu proměnné prijem vypište do st
 Jak se změní měsíční příjem divadla pokud víme, že 40 % návštěvníků jsou studenti? Vypište do stránky i příjem divadla se započítanou slevou pro studenty.
 */
 
-const cenaListku = 12
-const priemernyPocetZakaznikov = 174
-const pocetPredstaveniMesacne = 15
+//const cenaListku = 12
+//const priemernyPocetZakaznikov = 174
+//const pocetPredstaveniMesacne = 15
 
-const prijem = cenaListku * priemernyPocetZakaznikov * pocetPredstaveniMesacne
+//const prijem = cenaListku * priemernyPocetZakaznikov * pocetPredstaveniMesacne
 
- document.body.innerHTML += "<p>" + prijem + "</p>"
+ //document.body.innerHTML += "<p>" + prijem + "</p>"
 
- const percentoStudentov = 0.40 
- const studentskaZlava = 0.65 
- const pocetStudentov = priemernyPocetZakaznikov * percentoStudentov
- const pocetPlatiacichPlnu = priemernyPocetZakaznikov - pocetStudentov
+ //const percentoStudentov = 0.40 
+ //const studentskaZlava = 0.65 
+ //const pocetStudentov = priemernyPocetZakaznikov * percentoStudentov
+ //const pocetPlatiacichPlnu = priemernyPocetZakaznikov - pocetStudentov
 
- const prijemSoZlavou = (pocetStudentov * cenaListku * studentskaZlava + pocetPlatiacichPlnu * cenaListku) * pocetPredstaveniMesacne;
+ //const prijemSoZlavou = (pocetStudentov * cenaListku * studentskaZlava + pocetPlatiacichPlnu * cenaListku) * pocetPredstaveniMesacne;
 
- document.body.innerHTML += "<p>" + prijemSoZlavou + "</p>"
+ //document.body.innerHTML += "<p>" + prijemSoZlavou + "</p>"
 
 
  /*
@@ -30,7 +30,6 @@ Zamyslete se nad tím, zda vámi vytvořený výraz generuje všechna čísla sk
 Vemte v úvahu, že funkce Math.random generuje náhodná čísla mezi 0 (včetně) a 1 (vyjma). Je tedy malinká pravěpodobnost, že občas padne přesně číslo 0. Naopak číslo 1 padnout nemůže.
  */
 
-const hodKockou = Math.floor(Math.random() * 6) + 1;
+//const hodKockou = Math.floor(Math.random() * 6) + 1;
 
- document.body.innerHTML += "<p>" + hodKockou + "</p>"
-
+ //document.body.innerHTML += "<p>" + hodKockou + "</p>"
